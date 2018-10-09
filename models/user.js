@@ -1,10 +1,7 @@
 "use strict";
 var mongoose = require('mongoose');
-var Promise = require('bluebird');
 
 const moment = require('moment');
-Promise.promisifyAll(mongoose);
-var mongoose = require('mongoose');
 
 var UserSchema = new mongoose.Schema({
   email:{
